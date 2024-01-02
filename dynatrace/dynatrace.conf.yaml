@@ -1,5 +1,5 @@
 spec_version: '0.1.0'
-dtCreds: dynatracetes
+dtCreds: dynatrace
 dashboard: query
 attachRules:
   tagRule:
