@@ -6,7 +6,7 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: "evalutaion"
+        - name: "evaluation"
           tasks:
             - name: "task1"
               properties:
