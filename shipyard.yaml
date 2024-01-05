@@ -9,5 +9,6 @@ spec:
         - name: "deployment"
           tasks:
             - name: "evaluation"
-	      teststrategy: "performance"
+	      properties:
+                teststrategy: "performance"
             - name: "build"
