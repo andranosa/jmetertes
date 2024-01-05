@@ -9,5 +9,5 @@ spec:
         - name: "deployment"
           tasks:
             - name: "evaluation"
-	            teststrategy: "performance"
+	      teststrategy: "performance"
             - name: "build"
