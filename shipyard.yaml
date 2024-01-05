@@ -6,9 +6,8 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: "evaluation"
+        - name: "deployment"
           tasks:
-            - name: "task1"
-              properties:
-                teststrategy: "performance"
-            - name: "task2"
+            - name: "evaluation"
+	            teststrategy: "performance"
+            - name: "build"
