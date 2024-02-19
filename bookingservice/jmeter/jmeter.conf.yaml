@@ -1,8 +1,0 @@
----
-spec_version: '0.1.0'
-workloads:
-  - teststrategy: performance
-    vuser: 50
-    loopcount: 10
-    script: jmeter/service-perform-test.jmx
-    acceptederrorrate: 1.0
